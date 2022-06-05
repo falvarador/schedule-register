@@ -1,6 +1,7 @@
 {
-	"name": "atomico-vite",
+	"name": "schedule-register",
 	"private": true,
+	"type": "module",
 	"version": "1.0.0",
 	"scripts": {
 		"dev": "vite",
@@ -13,9 +14,7 @@
 		"atomico": "1.59.0"
 	},
 	"devDependencies": {
-		"@atomico/plugin-vite": "1.4.2",
-		"@uppercod/vite-meta-url": "latest",
-		"@uppercod/vite-meta-url-load-css": "latest",
+		"@atomico/plugin-vite": "^1.4.2",
 		"@typescript-eslint/eslint-plugin": "5.27.0",
 		"@typescript-eslint/parser": "5.27.0",
 		"eslint-config-prettier": "8.5.0",

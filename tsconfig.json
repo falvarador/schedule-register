@@ -1,6 +1,8 @@
 {
-	"include": ["src/**/*", "vite.config.js", "types.d.ts"],
+	"include": ["src/**/*", "vite.config.js", "types.d.ts", "src/index.js"],
 	"compilerOptions": {
+		"moduleResolution": "Node",
+		"target": "ESNext",
 		"jsx": "react-jsx",
 		"jsxImportSource": "atomico",
 		"allowJs": true,
